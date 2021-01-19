@@ -1,0 +1,32 @@
+.basket-list{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    width: 40rem;
+    max-width: 95%;
+    transform: translate(-50%, -50%);
+    z-index:5;
+    background-color: azure;
+}
+.basket-close{
+    cursor: pointer;
+    position: absolute;
+    top:0.5rem;
+    right:0.5rem;
+    color:white;
+    font-weight: 700;
+}
+.close-list{
+    cursor: pointer;
+    font-size:smaller;
+    font-weight: 600;
+}
+.btn-floating{
+    margin-left: 10px;
+}
+.btn2{
+    cursor: pointer;
+    position: absolute;
+    right:1rem;
+    bottom: 0.5rem;
+}

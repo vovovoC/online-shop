@@ -1,0 +1,33 @@
+.goods{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px, 1fr));
+    gap:1rem;
+}
+.desc{
+    margin-top:10px;
+    width: 100%;
+    height: 50px;
+}
+.desc p{
+    height: 30px;
+    width: 100%;
+    color: #3e2723;
+}
+.desc span{
+    color:#bf360c ;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.teal{
+    margin-top: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+button{
+    border-radius: 3px;
+}
+.card-content{
+    margin:-10px;
+}

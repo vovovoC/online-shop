@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    z-index: 15;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  .container{
+    padding-bottom: 1rem;
+  }
+  .page-footer{
+    z-index: 15;
+  }

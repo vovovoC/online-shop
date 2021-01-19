@@ -1,0 +1,15 @@
+.cart{
+    z-index:4;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    position:fixed;
+    cursor: pointer;
+}
+@media (min-width:767px){
+    .cart{
+        bottom: unset;
+        top:5rem;
+    }
+}
